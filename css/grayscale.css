@@ -17,6 +17,11 @@ html {
     height: 100%;
 }
 
+@media(max-width:768px){
+	section {
+		height: 100%;
+	}
+}
 h1,
 h2,
 h3,
