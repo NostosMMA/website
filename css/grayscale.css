@@ -19,7 +19,7 @@ html {
 
 @media(max-width:768px){
 	section {
-		height: 100%;
+		height:relative;
 	}
 }
 h1,
@@ -344,9 +344,11 @@ a:focus {
 	height: relative;
 	background-color: #add9c8;
 }
-.inst-1 {
-	border: solid #add9c8 5px;
-	border-radius:12px;
+#instructors h1 {
+	font-size: 48px;
+}
+.description p {
+	color: #383939;
 }
 .btn-circle:hover,
 .btn-circle:focus {
