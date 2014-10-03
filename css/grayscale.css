@@ -226,27 +226,45 @@ a:focus {
 /*         Group Pic        */
 #group-pic {
     background: url(../img/group.jpg) 50% 0 fixed; 
-    height: auto;  
+    height: 400px;  
     margin: 0 auto; 
     width: 100%; 
     position: relative; 
-    padding: 200px 0px;
-    margin-top: 100px;
     box-shadow: 0 0 25px rgba(0,0,0,0.2);
 }
 @media(min-width:768px){
 #group-pic {
     background: url(../img/group.jpg) 50% 0 fixed; 
-    height: auto;  
+    height: 400;  
     margin: 0 auto; 
     width: 100%; 
     position: relative; 
-    padding: 200px 0px;
-    margin-top: 250px;
     box-shadow: 0 0 25px rgba(0,0,0,0.2);
 }
 }
 
+
+/*         Roots Pic        */
+.roots {
+	text-align: center;
+}
+#roots {
+    background: url(../img/roots.jpg) 50% 0 fixed; 
+    height: 400px;  
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+    box-shadow: 0 0 25px rgba(0,0,0,0.2);
+}
+@media(min-width:768px){
+#roots {
+    background: url(../img/roots.jpg) 50% 0 fixed; 
+    height: 400;  
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+}
+}
 /*         Owner        */
 .owner h1 {
 	font-size: 36px;
@@ -367,9 +385,6 @@ a:focus {
 
 
 /*    Classes section    */
-#classes {
-	background-color: green;
-}
 #classes h2 {
 	font-size: 48px;
 	padding-bottom: 20px;
