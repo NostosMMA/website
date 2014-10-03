@@ -17,10 +17,9 @@ html {
     height: 100%;
 }
 
-@media(max-width:768px){
-	section {
-		height:relative;
-	}
+
+section {
+	padding: 100px 0;
 }
 h1,
 h2,
@@ -47,6 +46,10 @@ p {
         margin: 0 0 35px;
         font-size: 18px;
         line-height: 1.6;
+    }
+    section {
+	    background-color: red;
+	    margin: 0 auto;
     }
 }
 
@@ -152,18 +155,21 @@ a:focus {
     -o-background-size: cover;
 }
 
-.intro .intro-body {
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.intro .intro-body .brand-heading {
-    font-size: 40px;
-}
-
-.intro .intro-body .intro-text {
-    font-size: 18px;
-}
+	.intro .intro-body {
+	    display: table-cell;
+	    vertical-align: middle;
+	}
+	
+	.intro .intro-body .brand-heading {
+	    font-size: 40px;
+	}
+	.intro .intro-body .brand-heading span {
+	        color: #add9c8;
+	}
+	.intro .intro-body .intro-text {
+	    font-size: 18px;
+	    text-align: center;
+	}
 
 @media(min-width:767px) {
     .intro {
@@ -175,7 +181,9 @@ a:focus {
         font-size: 72px;
         font-weight: 200;
     }
-
+	.intro .intro-body .brand-heading span {
+        color: #add9c8;
+    }
     .intro .intro-body .intro-text {
         font-size: 25px;
         margin-top: -25px;
@@ -211,7 +219,11 @@ a:focus {
 	color: #add9c8;
 }
 }
-
+@media(min-width:768px){
+	.promise {
+		margin-top: -100px;
+	}
+}
 
 
 
@@ -276,6 +288,9 @@ a:focus {
 	.owner p span{
 		color: #add9c8;
 	}
+	.owner {
+		margin-top: -100px;
+	}
 }
 
 @media(max-width:768px){
@@ -306,19 +321,6 @@ a:focus {
 		}
 }
 
-/*          Our roots       */
-#roots {
-	background-color: #383939;
-}
-.roots-bg {
-	background-image: url('../img/roots-bg.jpg');
-	background-repeat: no-repeat;
-	width: 100%;
-	height: relative;
-}
-#roots a {
-	margin-bottom: 25px;
-}
 
 /*     Buttons      */
 .btn-circle {
@@ -342,8 +344,7 @@ a:focus {
 #instructors {
 	width: 100%;
 	height: relative;
-	background-color: #add9c8;
-	padding-bottom: 100px;
+	background-color: #d9dadb;
 }
 #instructors h1 {
 	font-size: 48px;
@@ -363,7 +364,7 @@ a:focus {
 
 /*    classes section    */
 #classes {
-	margin-top: 200px;
+
 }
 #classes h2 {
 	font-size: 48px;
