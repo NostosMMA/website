@@ -368,7 +368,7 @@ a:focus {
 
 /*    Classes section    */
 #classes {
-	
+	background-color: green;
 }
 #classes h2 {
 	font-size: 48px;
@@ -444,8 +444,7 @@ a:focus {
 
 @media(min-width:767px) {
 	#classes {
-		margin-top: 50px;
-		margin-bottom: 100px;
+		padding-top: 150px;
 	}
     #classes .classes-item {
         margin: 0 0 30px;
@@ -762,7 +761,6 @@ a:focus {
 #map {
     width: 100%;
     height: 200px;
-    margin-top: 100px;
 }
 
 @media(min-width:767px) {
@@ -771,7 +769,7 @@ a:focus {
     }
 
     .download-section {
-        padding: 100px 0;
+        padding-top: 250px;
     }
 
     #map {
