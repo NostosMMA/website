@@ -287,8 +287,8 @@ a:focus {
 	.owner {
 		margin-top: -100px;
 	}
-	.owner img {
-		display: none;
+	.owner-reg img {
+		margin-top: -70px;
 	}
 }
 
@@ -354,16 +354,21 @@ a:focus {
 .description h5 {
 	margin: 0 auto;
 }
+@media(min-width:768px){
+	#instructors {
+		margin-top: -100px;
+		padding-top: none;
+	}
+}
 
 
 
 
 
 
-
-/*    classes section    */
+/*    Classes section    */
 #classes {
-
+	
 }
 #classes h2 {
 	font-size: 48px;
@@ -384,7 +389,7 @@ a:focus {
 #classes .classes-item .classes-link .classes-hover {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 91.5%;
     opacity: 0;
     background: #add9c8;
     -webkit-transition: all ease .5s;
@@ -438,6 +443,10 @@ a:focus {
 }
 
 @media(min-width:767px) {
+	#classes {
+		margin-top: 50px;
+		margin-bottom: 100px;
+	}
     #classes .classes-item {
         margin: 0 0 30px;
     }
@@ -621,7 +630,6 @@ a:focus {
     background-color: #383939;
     font-size: 40px;
     border-radius: 12px;
-    margin-bottom: 100px;
 }
 .btn-dark:hover {
 	width: 250px;
@@ -630,7 +638,6 @@ a:focus {
     padding: 20px 16px;
     background-color: #7f8181;
     font-size: 40px;
-    margin-bottom: 100px;
 }
 @media(min-width:768px){
 	.btn-green h6 {
