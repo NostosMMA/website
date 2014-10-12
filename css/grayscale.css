@@ -38,7 +38,6 @@ section {
 h1,h2,h3,h4,h5,h6 {
 	margin:20 20 35px;
 	text-transform:uppercase;
-	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-weight:700;
 	letter-spacing:1px;
 }
@@ -60,7 +59,6 @@ p {
 }
 
 a {
-	color:#219ab3;
 	-webkit-transition:all .2s ease-in-out;
 	-moz-transition:all .2s ease-in-out;
 	transition:all .2s ease-in-out;
@@ -79,9 +77,13 @@ a:hover,a:focus {
 	margin-bottom:0;
 	border-bottom:1px solid rgba(255,255,255,.3);
 	text-transform:uppercase;
-	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	background-color:#add9c8;
+}@media(max-width:767px){
+	.navbar-custom li a {
+	color: #383939;
 }
+}
+
 
 .navbar-custom .navbar-brand {
 	font-weight:700;
@@ -96,9 +98,28 @@ a:hover,a:focus {
 	font-size:16px;
 	color:#fff;
 }
+@media(min-width:768px){
 .navbar-custom .dropdown-menu {
-	background-color: black;
+	background: #383939;
+	padding: 10px 10px;
+	border: 5px solid #383939;
+	border-radius: 12px;
 }
+.navbar-custom .dropdown-menu li a {
+	color: #fff;
+	padding: 11px;
+}
+.navbar-custom .dropdown-menu .dropdown-toggle ul li a {
+	-webkit-transition:background .3s ease-in-out;
+	-moz-transition:background .3s ease-in-out;
+	transition:background .3s ease-in-out;
+}
+.dropdown .dropdown-bg {
+	color: yellow;
+	height: 100%;
+	width: 100%;
+}
+}	
 .navbar-custom .navbar-brand .navbar-toggle:focus,.navbar-custom .navbar-brand .navbar-toggle:active {
 	outline:0;
 }
@@ -139,6 +160,15 @@ a:hover,a:focus {
 		background-color:#add9c8;
 	}
 	
+	.navbar-custom.top-nav-collapse {
+		border-bottom:1px solid rgba(255,255,255,.3);
+	}
+	.top-nav-collapse li a {
+		color: #383939;
+	}
+	.top-nav-collapse .navbar-header a {
+		color: #fdfdfd;
+	}
 	.navbar-custom.top-nav-collapse {
 		border-bottom:1px solid rgba(255,255,255,.3);
 	}
@@ -226,6 +256,9 @@ a:hover,a:focus {
 }
 
 /*        Our Promise        */
+.promise a {
+	color: white;
+}
 .promise h2 {
 	font-size:36px;
 	text-align: center;
@@ -491,21 +524,49 @@ a:hover,a:focus {
 }
 
 /*        Schedule       */
-.schedule {
+#schedule {
 	text-align: left;
 }
-.schedule h1, span {
+#schedule h1, span {
 	color: #add9c8;
 	text-align: left;
 }
 @media(min-width:767px){
-	.schedule h1 {
+	#schedule h1 {
 		font-size: 48px;
 	}
 }
-.join {
+
+.waiver a{
+	color: white;
+}
+
+.membership a{
+	color: white;
+	margin-left: 15px;
+}
+
+
+/*     JOIN SECTION       */
+#join {
 	background-color: #d9dadb;
-	color: #383939;
+	color: #383939; 
+}
+#join p {
+	text-align: left;
+}
+#join a {
+	background-color: #d9dadb;
+	color: #383939; 
+}
+#join a:hover {
+	color: #696b6b; 
+}
+#join h5 {
+	margin-top: -10px
+}
+.waiver {
+	margin-left: 20px;
 }
 .quote {
 	background-color: #add9c8;

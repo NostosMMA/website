@@ -11,22 +11,43 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
 	font-family: Flaticon;
-        font-size: 108px;
+        font-size: 72px;
 font-style: normal;
-margin-left: 20px;
-}.flaticon-boxing3:before {
-	content: "\e000";
-	color: red;
 }
-.flaticon-female139:before {
+@media(min-width:767px){
+	[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+	[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+		font-family: Flaticon;
+	        font-size: 96px;
+	        font-style: normal;
+	}
+	}.flaticon-arrow:before {
+content: "\e000";
+}
+.flaticon-document6:before {
 	content: "\e001";
 }
-.flaticon-male2:before {
+.flaticon-download12:before {
 	content: "\e002";
 }
-.flaticon-person243:before {
+.flaticon-download164:before {
 	content: "\e003";
 }
-.flaticon-yoga13:before {
+.flaticon-female139:before {
 	content: "\e004";
+}
+.flaticon-male2:before {
+	content: "\e005";
+}
+.flaticon-person243:before {
+	content: "\e006";
+}
+.flaticon-running30:before {
+	content: "\e007";
+}
+.flaticon-search15:before {
+	content: "\e008";
+}
+.flaticon-yoga13:before {
+	content: "\e009";
 }
